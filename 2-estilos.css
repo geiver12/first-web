@@ -1,0 +1,14 @@
+
+/*Color e imagen de fondo de la página mediante una propiedad shorthand em caso de no haber imagen carga el fondo del color */
+
+body { background : #FFA url("yashin.jpg")  650px 100px no-repeat fixed;  }
+
+/*esta sola linea es similar a lo siguiente*/
+/*
+body {
+background-color: #222d2d;
+background-image: url("./graphics/colorstrip.gif");//añade imagen de fndo
+background-repeat: repeat-x;//se  puede repeat-x repreat-y no-repeat 
+background-position: 0 0;	//aca es en % y es el lugar donde se colocara la imagen.
+background-attachment: fixed;//si se quiere dejar la imagen fija o que se pierda a medida que bajamos en el scroll.
+}*/
